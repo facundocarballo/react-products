@@ -1,7 +1,6 @@
 import { Products } from "@/src/subpages/products";
 import { Product } from "@/src/types/Product";
 import { Box, Heading, Spinner, VStack } from "@chakra-ui/react";
-import { products as productsData } from "@/src/data/products";
 import React from "react";
 import axios from "axios";
 import { CreateProducts, URL_API } from "@/src/handlers/product";
